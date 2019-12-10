@@ -3,6 +3,9 @@
  * https://medium.com/coinmonks/deploy-smart-contract-with-web3js-account-private-key-no-truffle-solidity-tutorial-2-5926fface340
  */
 
+
+//this file is used to deploy smart contract to the blockchain
+
 const path = require('path');
 const fs = require('fs');
 const Web3 = require('web3');
