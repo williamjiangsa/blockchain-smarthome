@@ -15,6 +15,7 @@ The architecutre is proved to be feasible, however, with the initial configurati
 
 ## Screenshot
 ![GitHub Logo](https://github.com/tcs2019/SimulatedIoTDevices/blob/master/newuicontrollor/Screen/Screenshot_20190517_135414_com.iot.newuicontrollor.jpg)
+![GitHub Logo]
 (https://github.com/tcs2019/SimulatedIoTDevices/blob/master/newuicontrollor/Screen/Screenshot_20190517_135422_com.iot.newuicontrollor.jpg)
 
 
