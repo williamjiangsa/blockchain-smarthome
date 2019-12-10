@@ -13,3 +13,5 @@ The controller APP is written by Fullter, the controller can interact with smart
 The architecutre is proved to be feasible, however, with the initial configuration of Ethereum private blockchain setup, the performance of the system is not good enough. So, at the second part of the project, the evaluation tools are developed to figure out which part occupy the main delay in the process. According to the delay analysis, come up with corresponding solution, the result is great after improvement.
 
 
+## Screenshot
+![GitHub Logo](https://github.com/tcs2019/SimulatedIoTDevices/blob/master/newuicontrollor/Screen/Screenshot_20190517_135414_com.iot.newuicontrollor.jpg)
