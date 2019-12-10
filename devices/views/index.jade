@@ -1,0 +1,35 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Web Interface
+    link(rel='stylesheet', type='text/css', href='CSS/style.css')
+    script(src='JS/script.js')
+    style.
+  body
+    h1 Smart Home Devices
+    iframe.listIf(src='/lightbulbs')
+    iframe.listIf(src='/plugs')
+  //-   .deviceListDiv
+  //-     h1.listHeading Lightbulbs
+  //-     img.listImg(src='Images/lightbulb.png')
+  //-     ul.deviceList
+  //-       for lightbulb in lightbulbs
+  //-         li.horizontal
+  //-           hr
+  //-           a.deviceListItem(href='/lightbulb/' + lightbulb.id, type='button')= lightbulb.name
+  //-           p= lightbulb.description
+  //-       else 
+  //-         li There are no Lightbulbs
+
+  //-  .deviceListDiv
+  //-     h1.listHeading Plugs
+  //-     img.listImg(src='Images/plug.png')
+  //-     ul.deviceList
+  //-        for plug in plugs
+  //-          li
+  //-           hr
+  //-           a.deviceListItem(href='/plug/' + plug.id, type='button')= plug.id
+  //-            p= plug.description
+  //-        else 
+  //-          li There are no Electric PLugs

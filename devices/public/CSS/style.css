@@ -1,0 +1,172 @@
+.listHeading {
+    text-align: center;
+}
+
+.deviceListDiv {
+    border: solid;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.deviceList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.horizontal {
+    display: inline-block;
+}
+
+.deviceIf {
+    width: 410px;
+    height: 380px;
+}
+
+.listIf {
+    height: 700px;
+    width: 100%;
+    display: block;
+}
+
+.deviceListItem{
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+/*FROM W3 SCHOOLS*/
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+.listImg {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.devicediv {
+    width: 385px;
+    height: -webkit-fit-content;
+    width: -moz-fit-content;
+    height: -moz-fit-content;
+    float: left;
+    border-style: none;
+}
+
+.deviceName {
+    text-align: center;
+}
+
+.plugdiv {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    left: 15%;
+}
+
+#plug {
+    height: 100%;
+}
+
+.E {
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.deviceStatusText{
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    margin: 0px;
+}
+
+.lightbulbdiv {
+    position: relative;
+    width: 100px;
+    height: 200px;
+    left: 35%;
+}
+
+#lightbulb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+#overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.slidecontainer {
+    width: 100%;
+    margin-left: 2%;
+}
+
+/*FROM W3 SCHOOLS */
+.slider {
+  -webkit-appearance: none;
+  width: 70%;
+  height: 15px;
+  border-radius: 5px;   
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/*END*/
+
+.slider#RValue::-webkit-slider-thumb {
+    background: red;
+}
+
+.slider#GValue::-webkit-slider-thumb {
+    background: green;
+}
+
+.slider#BValue::-webkit-slider-thumb {
+    background: blue;
+}
+
+.slider#IValue::-webkit-slider-thumb {
+    background: black;
+}
+
+.slider#IValue::-moz-range-thumb {
+    background: black;
+}

@@ -1,0 +1,15 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Web Interface
+    link(rel='stylesheet', type='text/css', href='../CSS/style.css')
+    script(src='../JS/script.js')
+    style.
+  body()
+    .devicediv
+      h1.deviceName #{name}
+      .plugdiv
+        img#plug(src='../Images/plug.png', style='background-color: #{statusColour}')
+      p.E Description: #{Description}
+      p.deviceStatusText#deviceStatus(style='color: #{statusColour}', onclick='changeStatus()') #{status}

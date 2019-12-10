@@ -1,0 +1,25 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Web Interface
+    link(rel='stylesheet', type='text/css', href='CSS/style.css')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+    //- script(src=src='../JS/ajax.js')
+    style.
+  body
+    .deviceListDiv
+      h1.listHeading Lightbulbs
+      ul.deviceList
+        for lightbulb in lightbulbs
+          li.horizontal
+            div.deviceIf
+              h1.deviceName #{lightbulb.name}
+              .lightbulbdiv
+                img#lightbulb(src='../Images/lightbulb.png')
+                img#overlay(style='background-color: rgba(#{lightbulb.red},#{lightbulb.green},#{lightbulb.blue},#{lightbulb.intensity})', src='../Images/overlay.png')
+              p.E Description: #{lightbulb.description}
+              p.deviceStatusText#deviceStatus(style='color: #{statusColour}', onclick='changeStatus()') #{lightbulb.status}
+        else 
+          li There are no Lightbulbs
+    script(src='../JS/script.js')

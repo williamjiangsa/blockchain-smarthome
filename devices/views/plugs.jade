@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Web Interface
+    link(rel='stylesheet', type='text/css', href='CSS/style.css')
+    script(src='JS/script.js')
+    style.
+  body
+    .deviceListDiv
+      h1.listHeading Electric Plugs
+      ul.deviceList
+        for plug in plugs
+          li.horizontal
+            iframe.deviceIf(src='/plug/' + plug.id)
+        else 
+          li There are no Electric Plugs
