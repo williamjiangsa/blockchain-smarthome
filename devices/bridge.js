@@ -3,6 +3,7 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable import/no-unresolved */
 /* eslint-disable import/no-extraneous-dependencies */
+// this file is used to make to smart contract synced.
 
 const fs = require('fs');
 const Web3 = require('web3');
